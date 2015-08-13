@@ -1,0 +1,76 @@
+*{padding:0px;margin:0px;}
+body{width:100%;height:100%;background:url('brickwall.png');}
+#wrapper{width:1000px;min-height:800px;background:ghostwhite;background:url('linedpaper.gif');position:absolute;left:0px;right:0px;top:50px;margin-left:auto;margin-right:auto;
+         -webkit-transform:rotate(.5deg);transition:-webkit-transform .5s;border:1px dashed grey;
+		 box-shadow:0px 10px 20px 5px grey;}
+#wrapper:hover{-webkit-transform:rotate(0deg);}
+#wrapper #pen{position:absolute;left:600px;top:-60px;}
+
+.align{width:100%;text-align:center;padding:20px 0px;font-size:35px;background:;margin-bottom:10px;margin-top:10px;font-family: 'Gilda Display', serif;
+       text-shadow:5px 5px 10px #5C6363;}
+#homewrap{position:absolute;-webkit-transform:rotate(-30deg);top:30px;left:-60px;}	
+#homewrap a{text-decoration:none;color:steelblue;font-family: 'Gilda Display', serif;display:block;position:absolute;top:30px;left:30px;}   
+
+.home {
+	width:250;
+	height:100px;
+	background:#FFF;
+	
+	
+	}
+
+/*==================================================
+ * Effect 2
+ * ===============================================*/
+.effect2
+{
+  position: relative;
+}
+.effect2:before, .effect2:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+.effect2:after
+{
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}
+
+
+	   
+#contactus{background:;padding:30px 0px;}
+#contactus span{font-size:50px;font-family: 'Gilda Display', serif;}
+
+.mainbox{margin-top:50px;width:100%;height:1%;overflow:hidden;}
+.box{width:200px;height:250px;background:;position:relative;float:left;margin-left:200px;margin-bottom:50px;text-align:center;}
+.box img{display:block;border-radius:100px;margin:auto;margin-bottom:20px;}
+.box span{font-size:18pxpx;font-family: 'Gilda Display', serif;}
+.box p{font-size:18px;font-family: 'Gilda Display', serif;}
+/*.box h3{font-size:20px;font-family: 'Gilda Display', serif;}*/
+
+#festcoordinatorscontent .box{width:300px;height:350px;background:;position:relative;float:left;margin-left:133px;margin-bottom:50px;text-align:center;}
+#festcoordinatorscontent .box img{display:block;border-radius:100px;margin:auto;margin-bottom:20px;}
+#festcoordinatorscontent .box span{font-size:20px;font-family: 'Gilda Display', serif;}
+#festcoordinatorscontent .box p{font-size:15px;font-family: 'Gilda Display', serif;}
+#festcoordinatorscontent .box h3{font-size:15px;font-family: 'Gilda Display', serif;}}
